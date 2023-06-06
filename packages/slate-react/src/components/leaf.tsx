@@ -103,7 +103,7 @@ const Leaf = (props: {
         showPlaceholderTimeoutRef.current = setTimeout(() => {
           setShowPlaceholder(true)
           showPlaceholderTimeoutRef.current = null
-        }, 300)
+        }, 5)
       }
     } else {
       clearTimeoutRef(showPlaceholderTimeoutRef)
